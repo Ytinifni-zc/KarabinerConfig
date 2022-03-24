@@ -2042,8 +2042,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com.googlecode.iterm2",
-                                            "^org.gnu.Emacs",
-                                            "^com.microsoft.VSCode"
+                                            "^org.gnu.Emacs"
                                         ],
                                         "type": "frontmost_application_if"
                                     },
@@ -2270,7 +2269,38 @@
                 "delay_milliseconds_before_open_device": 1000
             },
             "selected": true,
-            "simple_modifications": [],
+            "simple_modifications": [
+                {
+                    "from": {
+                        "key_code": "caps_lock"
+                    },
+                    "to": [
+                        {
+                            "key_code": "left_control"
+                        }
+                    ]
+                },
+                {
+                    "from": {
+                        "key_code": "grave_accent_and_tilde"
+                    },
+                    "to": [
+                        {
+                            "key_code": "escape"
+                        }
+                    ]
+                },
+                {
+                    "from": {
+                        "key_code": "left_control"
+                    },
+                    "to": [
+                        {
+                            "key_code": "caps_lock"
+                        }
+                    ]
+                }
+            ],
             "virtual_hid_keyboard": {
                 "country_code": 0,
                 "indicate_sticky_modifier_keys_state": true,
