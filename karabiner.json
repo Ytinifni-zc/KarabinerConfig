@@ -2041,7 +2041,9 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.googlecode.iterm2"
+                                            "^com.googlecode.iterm2",
+                                            "^org.gnu.Emacs",
+                                            "^com.microsoft.VSCode"
                                         ],
                                         "type": "frontmost_application_if"
                                     },
